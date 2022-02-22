@@ -13,16 +13,28 @@ front-end/.pnp.js
 # testing
 front-end/coverage
 
+# next.js
+front-end/.next/
+front-end/out/
+
 # production
 front-end/build
 
 # misc
 front-end/.DS_Store
+front-end/*.pem
+
+# debug
+front-end/npm-debug.log*
+front-end/yarn-debug.log*
+front-end/yarn-error.log*
+front-end/.pnpm-debug.log*
+
+# local env files
 front-end/.env.local
 front-end/.env.development.local
 front-end/.env.test.local
 front-end/.env.production.local
 
-front-end/npm-debug.log*
-front-end/yarn-debug.log*
-front-end/yarn-error.log*
+# vercel
+front-end/.vercel
