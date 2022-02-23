@@ -1,0 +1,14 @@
+.store-input {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.store-button {
+  margin-left: 20%;
+}
+
+.number-retreived {
+  margin-right: 24%;
+}
